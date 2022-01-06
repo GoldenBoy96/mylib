@@ -52,7 +52,6 @@ public class Input {
                         System.out.print("Please input an integer between " + bottomValue + " and " + topValue + ": ");
                     }
                 }
-                break;
             } catch (NumberFormatException e) {
                 System.out.print(reInputMsg);
             }
@@ -101,7 +100,6 @@ public class Input {
                         System.out.print("Please input an Double between " + bottomValue + " and " + topValue + ": ");
                     }
                 }
-                break;
             } catch (NumberFormatException e) {
                 System.out.print(reInputMsg);
             }
